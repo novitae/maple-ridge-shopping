@@ -1,0 +1,21 @@
+{
+  "client_id": "https://novitae.github.io/maple-ridge-shopping/client.json",
+  "client_name": "Maple Ridge Shopping",
+  "client_uri": "https://novitae.github.io/maple-ridge-shopping",
+  "logo_uri": "https://cdn.shopify.com/shop-assets/static/favicon.png",
+  "redirect_uris": [
+    "http://127.0.0.1:9391/callback",
+    "http://127.0.0.1:9391/cb",
+    "http://localhost:9391/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "openid email personal_agent personal_agent:orders dev.ucp.shopping.checkout:manage",
+  "application_type": "native"
+}
